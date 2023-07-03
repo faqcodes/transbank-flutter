@@ -1,5 +1,30 @@
 # See https://www.dartlang.org/guides/libraries/private-files
 
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+coverage/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+.vscode/
+
 # Files and directories created by pub
 .dart_tool/
 .packages
@@ -10,6 +35,7 @@ pubspec.lock
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
 doc/api/
+**/doc/api/
 
 # dotenv environment variables file
 .env*
